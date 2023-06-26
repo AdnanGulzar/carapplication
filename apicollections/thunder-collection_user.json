@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2023-06-26T01:57:14.236Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9f2c9469-382f-4a39-ad0c-7ad65955200b",
+            "colId": "ac89eba7-7858-4b63-80f0-481c7f81fa87",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/register",
+            "url": "http://localhost:4000/api/v1/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-18T18:02:07.709Z",
+            "modified": "2023-06-18T18:02:07.709Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"adnan\",\n  \"email\":\"adnan.gull548922@gmail.com\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f4d433fb-a42c-43b9-919b-a2599a5315da",
+            "colId": "ac89eba7-7858-4b63-80f0-481c7f81fa87",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/register Copy",
+            "url": "http://localhost:4000/api/v1/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-26T01:44:58.670Z",
+            "modified": "2023-06-26T01:44:58.670Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"adnan\",\n  \"email\":\"adnan.gull548922@gmail.com\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "89e6ba8a-290e-471b-b8ad-4a8fd4a88943",
+            "colId": "ac89eba7-7858-4b63-80f0-481c7f81fa87",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/login",
+            "url": "http://localhost:4000/api/v1/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-26T01:48:20.205Z",
+            "modified": "2023-06-26T01:48:20.205Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\":\"adnan\",\n  \"email\":\"adnan.gull@gmail.com\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ebba3b8d-ec0b-4073-b0eb-6f4e561048d6",
+            "colId": "ac89eba7-7858-4b63-80f0-481c7f81fa87",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/me",
+            "url": "http://localhost:4000/api/v1/me",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-26T01:48:56.708Z",
+            "modified": "2023-06-26T01:48:56.708Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5ab59d08-3e5b-45f8-8d4c-b44bad252f51",
+            "colId": "ac89eba7-7858-4b63-80f0-481c7f81fa87",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/register",
+            "url": "http://localhost:4000/api/v1/logout",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-26T01:49:19.014Z",
+            "modified": "2023-06-26T01:49:19.014Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

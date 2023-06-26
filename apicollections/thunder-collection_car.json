@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "car",
+    "dateExported": "2023-06-26T01:57:40.081Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1345c1ed-1da0-462a-b617-9899f5ad6628",
+            "colId": "3138ba23-3224-4e04-8828-4321ee03d7cc",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/car/new",
+            "url": "http://localhost:4000/api/v1/car/new",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-06-26T01:50:01.457Z",
+            "modified": "2023-06-26T01:50:01.457Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"honda2\",\n  \"category\":\"abc\",\n  \"price\":12,\n  \"model\":\"2020\",\n  \"color\":\"red\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "549f6df5-af70-4251-945d-a4fd75da42c5",
+            "colId": "3138ba23-3224-4e04-8828-4321ee03d7cc",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/car",
+            "url": "http://localhost:4000/api/v1/car",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-26T01:50:30.812Z",
+            "modified": "2023-06-26T01:50:30.812Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2dca5146-722b-4748-8b45-dc480275fe63",
+            "colId": "3138ba23-3224-4e04-8828-4321ee03d7cc",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/car",
+            "url": "http://localhost:4000/api/v1/car",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-06-26T01:52:44.388Z",
+            "modified": "2023-06-26T01:52:44.388Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "964ca217-1b20-458c-9cf4-1f0e8f2f968b",
+            "colId": "3138ba23-3224-4e04-8828-4321ee03d7cc",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/car/2423423423",
+            "url": "http://localhost:4000/api/v1/car/23423423423",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-06-26T01:53:14.204Z",
+            "modified": "2023-06-26T01:53:14.204Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"honda2\",\n  \"category\":\"abc\",\n  \"price\":12,\n  \"model\":\"2020\",\n  \"color\":\"red\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

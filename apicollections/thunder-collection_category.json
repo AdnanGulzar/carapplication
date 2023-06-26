@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "category",
+    "dateExported": "2023-06-26T01:57:48.745Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d79b5ac4-7e3f-45f9-9554-c69ea5f93d89",
+            "colId": "d9f0e3d6-94b7-4b38-8e8e-448a293aabaf",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/category/23423423423",
+            "url": "http://localhost:4000/api/v1/category/23423423423",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-06-26T01:54:09.412Z",
+            "modified": "2023-06-26T01:54:09.412Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"honda2\",\n  \"category\":\"abc\",\n  \"price\":12,\n  \"model\":\"2020\",\n  \"color\":\"red\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "199d3c34-7f9c-4dc6-8005-ab837751bf2b",
+            "colId": "d9f0e3d6-94b7-4b38-8e8e-448a293aabaf",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/category/new",
+            "url": "http://localhost:4000/api/v1/category/new",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-06-26T01:54:39.815Z",
+            "modified": "2023-06-26T01:54:39.815Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"honda2\",\n  \"category\":\"abc\",\n  \"price\":12,\n  \"model\":\"2020\",\n  \"color\":\"red\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "aa361110-63d6-4a7a-84c2-531708158094",
+            "colId": "d9f0e3d6-94b7-4b38-8e8e-448a293aabaf",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/login",
+            "url": "http://localhost:4000/api/v1/category/3423423",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-06-26T01:55:18.255Z",
+            "modified": "2023-06-26T01:55:18.255Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"honda2\",\n  \"category\":\"abc\",\n  \"price\":12,\n  \"model\":\"2020\",\n  \"color\":\"red\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6f4f60fd-eec8-44f9-b5f9-8db1a7cd6b4f",
+            "colId": "d9f0e3d6-94b7-4b38-8e8e-448a293aabaf",
+            "containerId": "",
+            "name": "http://localhost:4000/api/v1/category",
+            "url": "http://localhost:4000/api/v1/category",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-26T01:56:14.828Z",
+            "modified": "2023-06-26T01:56:14.828Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
